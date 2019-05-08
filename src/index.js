@@ -8,9 +8,7 @@ export default class DetailHeader extends React.Component {
     const { color, labelColor } = this.props
     return (
       <View style={styles.container}>
-        <View style={styles.imageContainer}>
-          {/* LeftComponent  */}
-        </View>
+        {this.props.LeftComponent}
         <View style={styles.infoContainer}>
           <Text numberOfLines={2} style={[styles.title, { color }]}>{this.props.title}</Text>
           <Text style={[styles.description, { color: labelColor }]}>{this.props.description}</Text>
@@ -22,11 +20,10 @@ export default class DetailHeader extends React.Component {
 }
 
 DetailHeader.propTypes = {
-  picture: PropTypes.string,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   label: PropTypes.string,
-  icon: PropTypes.string,
+  LeftComponent: PropTypes.element,
   color: PropTypes.string,
   labelColor: PropTypes.string,
 }
