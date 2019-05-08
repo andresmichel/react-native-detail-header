@@ -1,0 +1,24 @@
+{
+  "name": "react-native-detail-header",
+  "version": "0.2.0",
+  "description": "React Native Detail Header",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "detail",
+    "header"
+  ],
+  "repository": "https://github.com/andresmichel/react-native-detail-header",
+  "author": "Andres Michel",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
