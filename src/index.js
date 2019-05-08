@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { View, Text, StyleSheet, Platform } from 'react-native'
-
-const isPad = Platform.OS === 'ios' ? Platform.isPad : width > 500
+import { View, Text, StyleSheet } from 'react-native'
+import { isPad } from 'react-native-layout-constants'
 
 export default class DetailHeader extends React.Component {
   render() {
